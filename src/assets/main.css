@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+  width: 1100px;
+  height: 450px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color:#ffffff ;
+  font-weight: normal;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+   
+  }
+}
